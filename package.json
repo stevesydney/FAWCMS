@@ -1,0 +1,19 @@
+{
+    "name": "fawcms",
+    "description": "A custom CMS to publish blog posts and other things.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Stephen Farrugia",
+        "email": "sfarrugia@gmail.com",
+        "url": "https://fasterandworse.com"
+    },
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "sass": "sass --watch resources/scss:public/css"
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.1",
+        "sass": "^1.80.7"
+    }
+}
